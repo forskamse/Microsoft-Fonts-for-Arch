@@ -10,7 +10,7 @@ After you have download the source from AUR to local yaourt working directory (P
 Continue to compile ttf-ms-win10.
 
 ## Why should you overwrite PKGBUILD
-Trouble：  
+**Trouble：**  
 Marlett.ttf was missing when I extracted the fonts from a installed Windows 10. So I encountered this problem:
 ```
 Retrieving sources...
@@ -21,7 +21,7 @@ marlett.ttf ... FAILED
 ... ...
 ERROR: One or more files did not pass the validity check!
 ```
-Solution：  
+**Solution：**  
 Edit PKGBUILD（Probably on /tmp/yaourt-tmp-\*\*/aur-ttf-ms-win10/）  
 (1). delete the term 'marlett.ttf' in _ttf_ms_win10()：  
 ```
@@ -34,7 +34,7 @@ marlett.ttf                                                 # Marlett
 ... ...
 )
 ```
-(2).delete the sha256sum corresponding to 'marlett.ttf' in sha256sums=():
+(2). delete the sha256sum corresponding to 'marlett.ttf' in sha256sums=():
 ```
 sha256sums=(
 ... ...
