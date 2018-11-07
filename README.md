@@ -23,7 +23,7 @@ ERROR: One or more files did not pass the validity check!
 ```
 **Solution：**  
 Edit PKGBUILD（Probably on /tmp/yaourt-tmp-\*\*/aur-ttf-ms-win10/）  
-(1). delete the term 'marlett.ttf' in _ttf_ms_win10()：  
+(1). Delete the term 'marlett.ttf' in _ttf_ms_win10()：  
 ```
 _ttf_ms_win10=(
 #########################################################################################
@@ -34,7 +34,7 @@ marlett.ttf                                                 # Marlett
 ... ...
 )
 ```
-(2). delete the sha256sum corresponding to 'marlett.ttf' in sha256sums=():
+(2). Delete the sha256sum corresponding to 'marlett.ttf' in sha256sums=():
 ```
 sha256sums=(
 ... ...
