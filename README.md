@@ -6,7 +6,8 @@ As an example, follow the steps to install ttf-ms-win10:
 ```
 yaourt ttf-ms-win10
 ```
-After you have download the source from AUR to local yaourt working directory (Probably /tmp/yaourt-tmp-\*\*/aur-ttf-ms-win10/), clone this repository and put all the files to the working directory. Remember that you sholud overwrite the original PKGBUILD with mine.
+After you downloaded the source from AUR to your local yaourt working directory (Probably /tmp/yaourt-tmp-\*\*/aur-ttf-ms-win10/), clone this repository and put all the files to the working directory. Remember that you sholud overwrite the original PKGBUILD with Mine.
+
 Continue to compile ttf-ms-win10.
 
 ## Why should you overwrite PKGBUILD
