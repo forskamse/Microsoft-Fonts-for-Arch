@@ -10,7 +10,7 @@ After you downloaded the source from AUR to your local yaourt working directory 
 
 Continue to compile ttf-ms-win10.
 
-## Why should you overwrite PKGBUILD
+## Why Should You Overwrite PKGBUILD
 **Trouble：**  
 Marlett.ttf was missing when I extracted the fonts from a installed Windows 10. So I encountered this problem:
 ```
