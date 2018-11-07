@@ -6,7 +6,7 @@ As an example, follow the steps to install ttf-ms-win10:
 ```
 yaourt ttf-ms-win10
 ```
-After you have download the source from AUR to local yaourt working directory (Maybe /tmp/yaourt-tmp-\*\*/ttf-ms-win10/), clone this repository and put all the files to the working directory. Remember that you sholud overwrite the original PKGBUILD with mine.
+After you have download the source from AUR to local yaourt working directory (Probably /tmp/yaourt-tmp-\*\*/aur-ttf-ms-win10/), clone this repository and put all the files to the working directory. Remember that you sholud overwrite the original PKGBUILD with mine.
 Continue to compile ttf-ms-win10.
 
 ## Why should you overwrite PKGBUILD
@@ -22,7 +22,7 @@ marlett.ttf ... FAILED
 ERROR: One or more files did not pass the validity check!
 ```
 Solution：  
-Edit PKGBUILD（probably on /tmp/yaourt-tmp-\*\*/aur-ttf-ms-win10/）  
+Edit PKGBUILD（Probably on /tmp/yaourt-tmp-\*\*/aur-ttf-ms-win10/）  
 (1). delete the term 'marlett.ttf' in _ttf_ms_win10()：  
 ```
 _ttf_ms_win10=(
